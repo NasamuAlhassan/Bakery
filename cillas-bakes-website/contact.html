@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Cilla's Bakes and Gifts</title>
+  <meta name="description" content="Contact Cilla's Bakes and Gifts for orders, custom cakes and inquiries." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav-acrylic" role="banner">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Cilla's Bakes & Gifts home">
+        <img src="simple-modern-bakery-logo-design-typography-badge-vector-removebg-preview.png" alt="Cilla's logo" class="brand-logo">
+        <div class="brand-text">
+          <h1>Cilla's Bakes & Gifts</h1>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span class="hamburger-line top"></span>
+        <span class="hamburger-line mid"></span>
+        <span class="hamburger-line bot"></span>
+      </button>
+
+      <nav id="primaryNav" class="nav-menu" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="shop.html">Shop</a>
+        <a class="nav-item" href="gallery.html">Gallery</a>
+        <a class="nav-item" href="about.html">About</a>
+        <a class="nav-item" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle7" class="glass-btn small">🌓</button>
+        <a href="cart.html" class="cart-float" aria-label="View cart">
+          <span class="cart-icon">🛒</span>
+          <span id="cartCount8" class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <form id="contactForm" class="glass contact-form" novalidate aria-labelledby="contactHeading">
+        <h3 id="contactHeading">Send us a message</h3>
+        <p class="muted">We typically reply within 24 hours. Use the form or reach us by phone.</p>
+
+        <label for="cname">Full name</label>
+        <input id="cname" name="name" type="text" placeholder="Your full name" required>
+
+        <label for="cemail">Email address</label>
+        <input id="cemail" name="email" type="email" placeholder="name@example.com" required>
+
+        <label for="cphone">Phone (optional)</label>
+        <input id="cphone" name="phone" type="tel" placeholder="+233 24 000 0000">
+
+        <label for="cmessage">Message</label>
+        <textarea id="cmessage" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+
+        <div class="form-row">
+          <button type="submit" class="btn primary">Send Message</button>
+          <button type="reset" class="btn ghost">Reset</button>
+        </div>
+
+        <div id="contactStatus" role="status" aria-live="polite" class="muted" style="margin-top:12px;display:none"></div>
+      </form>
+
+      <aside class="glass contact-info" aria-label="Contact details">
+        <h3>Visit or call</h3>
+        <p><strong>Address:</strong><br>cillabake's, Bolga</p>
+        <p><strong>Phone:</strong><br><a href="tel:+233243854963">+233 24 385 4963</a></p>
+        <p><strong>Email:</strong><br><a href="mailto:alhassanpriscilla0@gmail.com">alhassanpriscilla0@gmail.com</a></p>
+
+        <h4 style="margin-top:12px">Our location</h4>
+        <div class="map-placeholder" style="margin-top:8px">
+          <!-- Replace the src below with a real Google Maps iframe when available -->
+          <img src="https://via.placeholder.com/420x260.png?text=Map+Placeholder" alt="Map placeholder">
+          <!-- Example iframe (uncomment and replace query to use real map):
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="260" style="border:0;border-radius:10px" allowfullscreen="" loading="lazy"></iframe>
+          -->
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer-glass">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Cilla's Bakes & Gifts</h4>
+        <p>Handcrafted bakery goods made with love and premium ingredients.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a class="footer-link" href="shop.html">Shop</a>
+        <a class="footer-link" href="gallery.html">Gallery</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <p>Social Center, Bolga</p>
+        <p>Phone: +233 24 385 4963</p>
+        <p>Email: alhassanpriscilla0@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year8"></span> Cilla's Bakes & Gifts — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

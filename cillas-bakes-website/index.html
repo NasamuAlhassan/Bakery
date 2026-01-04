@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cilla's Bakes & Gifts — Home</title>
+  <meta name="description" content="Cilla's Bakes and Gifts — handcrafted cakes, pastries, cookies and gift boxes.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav-acrylic" role="banner">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Cilla's Bakes & Gifts home">
+        <img src="simple-modern-bakery-logo-design-typography-badge-vector-removebg-preview.png" alt="Cilla's logo" class="brand-logo">
+        <div class="brand-text">
+          <h1>Cilla's Bakes & Gifts</h1>
+          <p class="tagline">Warm. Fresh. Handcrafted.</p>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span class="hamburger-line top"></span>
+        <span class="hamburger-line mid"></span>
+        <span class="hamburger-line bot"></span>
+      </button>
+
+      <nav id="primaryNav" class="nav-menu" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="shop.html">Shop</a>
+        <a class="nav-item" href="gallery.html">Gallery</a>
+        <a class="nav-item" href="about.html">About</a>
+        <a class="nav-item" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="glass-btn small">🌓</button>
+        <a href="cart.html" class="cart-float" aria-label="View cart">
+          <span class="cart-icon">🛒</span>
+          <span id="cartCount" class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="bg-blob blob-1" aria-hidden="true"></div>
+        <div class="bg-blob blob-2" aria-hidden="true"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-col">
+          <div class="hero-card glass">
+            <h2 class="hero-title">Cilla's Bakery</h2>
+            <p class="lead">Freshly baked delights from Cilla's kitchen — cakes, pastries, cookies and curated gift boxes.</p>
+            <div class="hero-cta">
+              <a href="shop.html" class="btn primary">Shop Bestsellers</a>
+              <a href="gallery.html" class="btn ghost">View Gallery</a>
+            </div>
+          </div>
+          <div class="hero-sub glass">
+            <p class="muted">Handmade with premium ingredients. Same-day pickup and local delivery available.</p>
+            <div class="feature-list" style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+              <div class="feature-item glass" style="padding:8px 10px;border-radius:12px;display:flex;gap:8px;align-items:center">
+                <span>🥐</span>
+                <span><strong>Fresh Daily</strong><br><small class="muted">Baked every morning</small></span>
+              </div>
+              <div class="feature-item glass" style="padding:8px 10px;border-radius:12px;display:flex;gap:8px;align-items:center">
+                <span>🚚</span>
+                <span><strong>Same-day Delivery</strong><br><small class="muted">Order on time</small></span>
+              </div>
+              <div class="feature-item glass" style="padding:8px 10px;border-radius:12px;display:flex;gap:8px;align-items:center">
+                <span>🎁</span>
+                <span><strong>Gift Boxes</strong><br><small class="muted">Curated & ready to gift</small></span>
+              </div>
+              <div class="feature-item glass" style="padding:8px 10px;border-radius:12px;display:flex;gap:8px;align-items:center">
+                <span>🌿</span>
+                <span><strong>Locally Sourced</strong><br><small class="muted">Supporting local farms</small></span>
+              </div>
+            </div>
+            <div style="margin-top:14px">
+              <a href="shop.html" class="btn primary">Order Now</a>
+              <a href="contact.html" class="btn ghost" style="margin-left:8px">Custom Orders</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-col showcase">
+          <div id="featuredProducts" class="grid grid-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container promotions">
+      <div class="promo-grid">
+        <div class="promo glass">
+          <h3>Weekend Special</h3>
+          <p>Buy 2 cupcakes, get 1 free — this weekend only.</p>
+        </div>
+        <div class="promo glass">
+          <h3>Custom Orders</h3>
+          <p>Personalized cakes for birthdays and events. Order 3 days ahead.</p>
+        </div>
+        <div class="promo glass">
+          <h3>Gift Boxes</h3>
+          <p>Curated dessert boxes for every occasion — ready to gift.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- New informative section: specials, categories, newsletter, hours -->
+    <section class="container info-section">
+      <div class="info-grid">
+        <div class="specials glass">
+          <h3>Today's Specials</h3>
+          <div class="grid grid-3">
+            <article class="special-card glass">
+              <h4>Slice of the Day</h4>
+              <p class="muted">Classic Chocolate Cake — 20% off</p>
+              <div class="price-row">
+                <strong>GHS 96.00</strong>
+                <button class="btn primary" data-add="p1">Add</button>
+              </div>
+            </article>
+            <article class="special-card glass">
+              <h4>Grab & Go</h4>
+              <p class="muted">Savory Meat Pie with side dip</p>
+              <div class="price-row">
+                <strong>GHS 20.00</strong>
+                <button class="btn primary" data-add="p7">Add</button>
+              </div>
+            </article>
+            <article class="special-card glass">
+              <h4>Sweet Treat</h4>
+              <p class="muted">Glazed Doughnut & Coffee combo</p>
+              <div class="price-row">
+                <strong>GHS 8.00</strong>
+                <button class="btn primary" data-add="p9">Add</button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="newsletter glass">
+          <h3>Join our newsletter</h3>
+          <p class="muted">Get weekly specials and early access to new boxes.</p>
+          <form id="newsletterForm" novalidate>
+            <input id="nlEmail" type="email" placeholder="your@email.com" required style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(0,0,0,0.06);margin-top:8px;background:transparent">
+            <div style="margin-top:10px;display:flex;gap:8px">
+              <button type="submit" class="btn primary">Subscribe</button>
+              <button type="reset" class="btn ghost">Clear</button>
+            </div>
+            <div id="newsletterStatus" role="status" aria-live="polite" class="muted" style="margin-top:10px;display:none"></div>
+          </form>
+
+          <div class="hours" style="margin-top:18px">
+            <h4>Store Hours</h4>
+            <p class="muted">Mon–Sat: 7:00am – 7:00pm<br>Sun: 8:00am – 4:00pm</p>
+            <p class="muted" style="margin-top:8px"><strong>Delivery:</strong> Local same-day delivery (Order on time)</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container testimonials">
+      <h2>What customers say</h2>
+      <div class="test-grid">
+        <blockquote class="glass">
+          <p>"Cilla's chocolate cake made my birthday unforgettable — moist and decadent!"</p>
+          <cite>— Bright</cite>
+        </blockquote>
+        <blockquote class="glass">
+          <p>"Beautiful gift boxes and fast delivery. The packaging felt premium."</p>
+          <cite>— Christabel</cite>
+        </blockquote>
+        <blockquote class="glass">
+          <p>"Fresh bread every morning. My family loves the sourdough."</p>
+          <cite>— Favour</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-glass">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Cilla's Bakes & Gifts</h4>
+        <p>Handcrafted bakery goods made with love and premium ingredients.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a class="footer-link" href="shop.html">Shop</a>
+        <a class="footer-link" href="gallery.html">Gallery</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <p>Social Center, Bolga</p>
+        <p>Phone: +233 24 385 4963</p>
+        <p>Email: alhassanpriscilla0@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Cilla's Bakes & Gifts — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="cart.html" class="floating-cart" aria-label="Open cart">
+    🛒 <span id="floatingCartCount">0</span>
+  </a>
+
+  <script src="js/script.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

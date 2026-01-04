@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout — Cilla's Bakes and Gifts</title>
+  <meta name="description" content="Checkout page for Cilla's Bakes and Gifts. Fill in your details to place an order." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav-acrylic" role="banner">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Cilla's Bakes & Gifts home">
+        <img src="simple-modern-bakery-logo-design-typography-badge-vector-removebg-preview.png" alt="Cilla's logo" class="brand-logo">
+        <div class="brand-text">
+          <h1>Cilla's Bakes & Gifts</h1>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span class="hamburger-line top"></span>
+        <span class="hamburger-line mid"></span>
+        <span class="hamburger-line bot"></span>
+      </button>
+
+      <nav id="primaryNav" class="nav-menu" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="shop.html">Shop</a>
+        <a class="nav-item" href="gallery.html">Gallery</a>
+        <a class="nav-item" href="about.html">About</a>
+        <a class="nav-item" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle5" class="glass-btn small">🌓</button>
+        <a href="cart.html" class="cart-float" aria-label="View cart">
+          <span class="cart-icon">🛒</span>
+          <span id="cartCount5" class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container checkout-page">
+    <h2>Checkout</h2>
+    <form id="checkoutForm" class="checkout-grid glass" novalidate>
+      <fieldset>
+        <legend>Contact Details</legend>
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" required>
+
+        <label for="address">Delivery address</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+      </fieldset>
+
+      <aside class="order-summary">
+        <h3>Order Summary</h3>
+        <div id="checkoutItems" class="checkout-items"></div>
+        <div class="summary-line total">
+          <span>Total</span>
+          <span id="checkoutTotal">GHS 0.00</span>
+        </div>
+        <button type="submit" class="btn primary full">Place Order (Mock)</button>
+      </aside>
+    </form>
+  </main>
+
+  <footer class="footer-glass">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Cilla's Bakes & Gifts</h4>
+        <p>Handcrafted bakery goods made with love and premium ingredients.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a class="footer-link" href="shop.html">Shop</a>
+        <a class="footer-link" href="gallery.html">Gallery</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <p>Social Center, Bolga</p>
+        <p>Phone: +233 24 385 4963</p>
+        <p>Email: alhassanpriscilla0@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year5"></span> Cilla's Bakes & Gifts — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart — Cilla's Bakes and Gifts</title>
+  <meta name="description" content="Your shopping cart at Cilla's Bakes and Gifts." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav-acrylic" role="banner">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Cilla's Bakes & Gifts home">
+        <img src="simple-modern-bakery-logo-design-typography-badge-vector-removebg-preview.png" alt="Cilla's logo" class="brand-logo">
+        <div class="brand-text">
+          <h1>Cilla's Bakes & Gifts</h1>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span class="hamburger-line top"></span>
+        <span class="hamburger-line mid"></span>
+        <span class="hamburger-line bot"></span>
+      </button>
+
+      <nav id="primaryNav" class="nav-menu" aria-label="Main navigation">
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="shop.html">Shop</a>
+        <a class="nav-item" href="gallery.html">Gallery</a>
+        <a class="nav-item" href="about.html">About</a>
+        <a class="nav-item" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle4" class="glass-btn small">🌓</button>
+        <a href="cart.html" class="cart-float" aria-label="View cart">
+          <span class="cart-icon">🛒</span>
+          <span id="cartCount4" class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container cart-page">
+    <h2>Your Cart</h2>
+    <section class="cart-grid">
+      <div id="cartItems" class="cart-items glass"></div>
+      <aside class="cart-summary glass">
+        <h3>Order Summary</h3>
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span id="subtotal">GHS 0.00</span>
+        </div>
+        <div class="summary-line">
+          <span>Delivery</span>
+          <span id="delivery">GHS 10.00</span>
+        </div>
+        <div class="summary-line total">
+          <span>Total</span>
+          <span id="total">GHS 0.00</span>
+        </div>
+        <a href="checkout.html" class="btn primary full">Proceed to Checkout</a>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer-glass">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Cilla's Bakes & Gifts</h4>
+        <p>Handcrafted bakery goods made with love and premium ingredients.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a class="footer-link" href="shop.html">Shop</a>
+        <a class="footer-link" href="gallery.html">Gallery</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <p>Social Center, Bolga</p>
+        <p>Phone: +233 24 385 4963</p>
+        <p>Email: alhassanpriscilla0@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year4"></span> Cilla's Bakes & Gifts — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

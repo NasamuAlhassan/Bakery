@@ -1,0 +1,7 @@
+Use these placeholder images or replace with your own assets:
+- https://images.unsplash.com/photo-1542826438-9e6b3b2b2f2d?q=80&w=800&auto=format&fit=crop
+- https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop
+- https://images.unsplash.com/photo-1542831371-d531d36971e6?q=80&w=800&auto=format&fit=crop
+- https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=800&auto=format&fit=crop
+- https://images.unsplash.com/photo-1505250469679-203ad9ced0cb?q=80&w=800&auto=format&fit=crop
+- Replace with local files: css/images/chocolate-cake.jpg, css/images/cupcakes.jpg, etc.
